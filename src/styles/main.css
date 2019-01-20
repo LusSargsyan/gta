@@ -1,0 +1,105 @@
+html{
+    font-size: 16px;
+}
+
+body {
+    background-color: #0E1823;
+    font-family: Lato;
+}
+.header {
+    font-family: Lato, bold;
+}
+.align-center{
+    align-items: center;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
+}
+
+.header-navigation .navigation-item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #FFFFFF;
+
+}
+
+.sign {
+    color: #FFFFFF;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.get-started {
+    padding: 0.8125rem 2.5625rem 0.8125rem 2.625rem;
+    text-transform: uppercase;
+    border-radius: 1.5625rem;
+    background-color: #484B50;
+    border: unset;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.get-started:hover{
+    color: #0E1823;
+    background-color: #FFFFFF;
+}
+
+.bold-text {
+    font-size:  3.4375rem;
+    font-family: Lato, black;
+    justify-content: center;
+    color:#FFFFFF;
+    display: flex;
+    margin-top: 33px;
+
+}
+
+.device-desc {
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-family: Lato,light;
+}
+
+.notice {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-family: Lato, light;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.store-icons {
+    padding-top: 50px;
+}
+
+.store-icons .image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.store-icons .image {
+    margin:  auto 1.5rem;
+}
+
+.divider {
+    height: 1px;
+    margin-top: 100px;
+    background-color: #484B50;
+}
+
+.address-bold {
+    font-family: Lato, Bold;
+    font-size: 1.625rem;
+    color: #FFFFFF;
+
+}
