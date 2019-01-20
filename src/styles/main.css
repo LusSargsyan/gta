@@ -4,10 +4,10 @@ html{
 
 body {
     background-color: #0E1823;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 .header {
-    font-family: Lato, bold;
+    font-weight: 700;
 }
 .align-center{
     align-items: center;
@@ -35,6 +35,7 @@ body {
 }
 
 .get-started {
+    font-weight: 700;
     padding: 0.8125rem 2.5625rem 0.8125rem 2.625rem;
     text-transform: uppercase;
     border-radius: 1.5625rem;
@@ -51,7 +52,7 @@ body {
 
 .bold-text {
     font-size:  3.4375rem;
-    font-family: Lato, black;
+    font-weight: 900;
     justify-content: center;
     color:#FFFFFF;
     display: flex;
@@ -66,13 +67,13 @@ body {
     text-align: center;
     color: #FFFFFF;
     margin-top: 20px;
-    font-family: Lato,light;
+    font-weight: 300;
 }
 
 .notice {
     color: #FFFFFF;
     font-size: 1.125rem;
-    font-family: Lato, light;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -96,10 +97,84 @@ body {
     margin-top: 100px;
     background-color: #484B50;
 }
+.addresses {
+    padding-top: 48px;
+    font-size: 1.625rem;
+}
 
 .address-bold {
-    font-family: Lato, Bold;
+    font-weight: 700;
     font-size: 1.625rem;
     color: #FFFFFF;
+}
+.tab {
+    margin-top: 100px;
+}
+.tab-wrapper{
+    background-color: #121C27;
+}
 
+.tab-container{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-container .tab-item {
+    flex: 1;
+    padding: 22px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.tab-container .tab-item:hover {
+    color: #FFFFFF;
+}
+.tab-container .tab-item.active {
+    color: #2FCC71;
+    border-bottom: 2px solid #2FCC71;
+}
+
+.car {
+  margin-top: 100px;
+}
+.car .car-item {
+    padding: 0 10px;
+    height: 100%;
+
+}
+.car .car-item .car-item-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #484B50;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.car .car-item .car-item-container.active {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-widgets {
+    padding-top: 1.8125rem;
+}
+
+.car-icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.car-type-active {
+    font-weight: 700;
+}
+
+.car-type {
+    font-weight: 700;
+    color: #FFFFFF;
 }
