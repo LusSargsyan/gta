@@ -12,6 +12,17 @@ body {
 .align-center{
     align-items: center;
 }
+
+.text-white-opacity {
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+
 .header-navigation {
     list-style: none;
     display: flex;
@@ -30,7 +41,6 @@ body {
 
 .sign {
     color: #FFFFFF;
-    justify-content: flex-end;
     display: flex;
 }
 
@@ -56,7 +66,16 @@ body {
     justify-content: center;
     color:#FFFFFF;
     display: flex;
-    margin-top: 33px;
+    margin-top: 95px;
+
+}
+
+.business-class {
+    font-size:  3.4375rem;
+    font-weight: 900;
+    justify-content: center;
+    color:#FFFFFF;
+    display: flex;
 
 }
 
@@ -86,6 +105,7 @@ body {
 .store-icons .image-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .store-icons .image {
@@ -94,7 +114,7 @@ body {
 
 .divider {
     height: 1px;
-    margin-top: 100px;
+    margin: 50px 0;
     background-color: #484B50;
 }
 .addresses {
@@ -106,6 +126,7 @@ body {
     font-weight: 700;
     font-size: 1.625rem;
     color: #FFFFFF;
+    margin-left: 33px;
 }
 .tab {
     margin-top: 100px;
@@ -127,6 +148,7 @@ body {
     text-align: center;
     cursor: pointer;
     font-weight: 700;
+    color: #FFFFFF20;
 }
 
 .tab-container .tab-item:hover {
@@ -138,7 +160,8 @@ body {
 }
 
 .car {
-  margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 .car .car-item {
     padding: 0 10px;
@@ -158,10 +181,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.footer-widgets {
-    padding-top: 1.8125rem;
+    height: 186px;
+    width: 342px;
 }
 
 .car-icon {
@@ -172,11 +193,16 @@ body {
 
 .car-type-active {
     font-weight: 700;
+    font-size: 30px;
+    margin-top: 18px;
 }
 
 .car-type {
     font-weight: 700;
     color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 18px;
+
 }
 
 .about-us, .ride-or-drive, .subscribe {
@@ -185,7 +211,130 @@ body {
     margin-bottom: 2.375rem;
 }
 
-.about-us p, .ride-or-drive p {
+.footer-widgets p{
+    color: #FFFFFF50;
     font-weight: 300;
     font-size: 1rem;
+}
+
+
+.price {
+
+}
+
+.price .circle-container {
+    display: flex;
+    align-items: center;
+    margin-right: 117px
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #484B50;
+}
+.price .circle-container .circle-text {
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+
+.price .business-class-desc {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+
+.price .price-number {
+    font-size: 55px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.price .price-desc {
+    font-size: 21px;
+    font-weight: 300;
+    color: #FFFFFF50;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.price .price-choose {
+    color: #2FCC71;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text-point-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.text-point-container .circle-text {
+    margin-left: 20px;
+    font-size: 24px;
+    flex: 1;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.large-car-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF20;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.footer-widgets {
+    padding-top: 1.8125rem;
+    margin-top: 155px;
+}
+
+.footer-widgets .email-block {
+    display: flex;
+}
+
+.footer-widgets .email-block .btn-subscribe {
+    border: 0;
+}
+
+.grey-text {
+    color: #FFFFFF50;
+    font-size: 26px;
+    font-weight: 300;
+
+}
+
+.from {
+    height: 35px;
+    width: 56px;
+}
+
+.to {
+    height: 35px;
+    width: 24px;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.currency {
+    font-size: 55px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.logo .row p{
+    margin-top: 24px;
 }
