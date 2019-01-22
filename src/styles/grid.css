@@ -21,7 +21,6 @@
 .container-fluid, .container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1366px;
 }
 
 .container-fluid {
@@ -238,9 +237,32 @@
         order: 1;
     }
 
-    .col-xs-hide {
+    .xs-hide {
         display: none;
     }
+    .xs-margin-bottom {
+        margin-bottom: 15px;
+    }
+
+    .xs-margin-left {
+        margin-left: 15px;
+    }
+
+    .xs-image {
+        width: 137px;
+    }
+    .xs-image-text {
+        font-size: 14px;
+    }
+
+    .xs-car-height {
+        height: unset !important;
+    }
+
+    .xs-large-image {
+        width: 140px;
+    }
+
 }
 
 @media only screen and (min-width: 600px)  and (max-width: 768px){
@@ -437,8 +459,26 @@
         order: 1;
     }
 
-    .col-sm-hide {
+    .sm-hide {
         display: none;
+    }
+
+    .sm-margin-bottom {
+        margin-bottom: 15px;
+    }
+    .sm-margin-left {
+        margin-left: 15px;
+    }
+    .sm-image-text {
+        font-size: 15px;
+    }
+
+    .sm-car-height {
+        width: 120px;
+    }
+
+    .sm-large-image {
+        width: 230px;
     }
 }
 
@@ -636,8 +676,20 @@
         order: 1;
     }
 
-    .col-md-hide {
+    .md-hide {
         display: none;
+    }
+
+    .md-image-text {
+        font-size: 18px;
+    }
+
+    .md-car-height {
+        width: 150px;
+    }
+
+    .md-large-image {
+        width: 330px;
     }
 }
 
@@ -835,8 +887,15 @@
         order: 1;
     }
 
-    .col-lg-hide {
+    .lg-hide {
          display: none;
      }
+
+    .lg-image-text {
+        font-size: 22px;
+    }
+    .lg-large-image {
+        width: 440px;
+    }
 }
 

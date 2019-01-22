@@ -67,13 +67,13 @@ body {
     color:#FFFFFF;
     display: flex;
     margin-top: 95px;
+    text-align: center;
 
 }
 
 .business-class {
     font-size:  3.4375rem;
     font-weight: 900;
-    justify-content: center;
     color:#FFFFFF;
     display: flex;
 
@@ -96,6 +96,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    text-align: center;
 }
 
 .store-icons {
@@ -105,7 +106,6 @@ body {
 .store-icons .image-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
 }
 
 .store-icons .image {
@@ -118,7 +118,6 @@ body {
     background-color: #484B50;
 }
 .addresses {
-    padding-top: 48px;
     font-size: 1.625rem;
 }
 
@@ -126,8 +125,18 @@ body {
     font-weight: 700;
     font-size: 1.625rem;
     color: #FFFFFF;
-    margin-left: 33px;
+    flex: 1;
+    margin-bottom: 16px;
 }
+
+.details {
+    margin-left: 11px;
+}
+
+.text-divider {
+    margin: 0 10px;
+}
+
 .tab {
     margin-top: 100px;
 }
@@ -181,28 +190,24 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 186px;
-    width: 342px;
 }
 
 .car-icon {
     flex: 1;
-    display: flex;
     align-items: center;
+    margin-bottom: 18px;
+
 }
 
 .car-type-active {
     font-weight: 700;
-    font-size: 30px;
-    margin-top: 18px;
+    margin: 18px auto;
 }
 
 .car-type {
     font-weight: 700;
     color: #FFFFFF;
-    font-size: 30px;
-    margin-top: 18px;
-
+    margin: 18px auto;
 }
 
 .about-us, .ride-or-drive, .subscribe {
@@ -225,7 +230,6 @@ body {
 .price .circle-container {
     display: flex;
     align-items: center;
-    margin-right: 117px
 }
 
 .circle{
@@ -287,6 +291,7 @@ body {
 
 .large-car-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF20;
@@ -297,6 +302,7 @@ body {
 .footer-widgets {
     padding-top: 1.8125rem;
     margin-top: 155px;
+    background-color: #121C27;
 }
 
 .footer-widgets .email-block {
@@ -337,4 +343,54 @@ body {
 
 .logo .row p{
     margin-top: 24px;
+}
+
+.email-block input{
+    width: 289px;
+    height: 36px;
+    background-color: #0E1823;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #484B50;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+
+
+}
+
+.email-block .btn-subscribe {
+    border-radius: 0px 7px 4px 0px;
+    background-color: #484B50;
+    width: 104px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.social-block {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.social-block .small-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #484B50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.clock {
+    display: flex;
+}
+
+.pricing-image-text {
+    margin: 18px auto;
 }
