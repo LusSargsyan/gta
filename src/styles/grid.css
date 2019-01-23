@@ -263,6 +263,22 @@
         width: 140px;
     }
 
+    .xs-book-desc-font {
+        font-size: 28px
+    }
+
+    .xs-complete-step-font {
+        font-size: 16px;
+    }
+
+    .xs-cancel-font {
+        font-size: 16px;
+    }
+
+    .xs-price-font {
+        font-size: 28px;
+    }
+
 }
 
 @media only screen and (min-width: 600px)  and (max-width: 768px){
@@ -480,6 +496,11 @@
     .sm-large-image {
         width: 230px;
     }
+
+    .sm-price-font {
+        font-size: 36px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
@@ -691,6 +712,23 @@
     .md-large-image {
         width: 330px;
     }
+
+    .md-header-font {
+        font-size: 18px
+    }
+
+    .md-book-desc-font {
+        font-size: 45px
+    }
+
+    .md-business-font {
+        font-size: 36px;
+    }
+
+    md-price-font {
+        font-size: 55px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -897,5 +935,30 @@
     .lg-large-image {
         width: 440px;
     }
+
+    .lg-header-font {
+        font-size: 18px
+    }
+
+    .lg-book-desc-font {
+        font-size: 55px
+    }
+
+    .lg-complete-step-font {
+        font-size: 24px;
+    }
+
+    .lg-cancel-font {
+        font-size: 18px;
+    }
+
+    .lg-business-font {
+        font-size: 55px;
+    }
+
+    .lg-price-font {
+        font-size: 55px;
+    }
+
 }
 

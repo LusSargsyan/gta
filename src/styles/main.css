@@ -22,7 +22,6 @@ body {
     color: #FFFFFF;
 }
 
-
 .header-navigation {
     list-style: none;
     display: flex;
@@ -36,7 +35,6 @@ body {
     flex: 1;
     justify-content: center;
     color: #FFFFFF;
-
 }
 
 .sign {
@@ -61,14 +59,12 @@ body {
 }
 
 .bold-text {
-    font-size:  3.4375rem;
     font-weight: 900;
     justify-content: center;
     color:#FFFFFF;
     display: flex;
     margin-top: 95px;
     text-align: center;
-
 }
 
 .business-class {
@@ -76,11 +72,9 @@ body {
     font-weight: 900;
     color:#FFFFFF;
     display: flex;
-
 }
 
 .device-desc {
-    font-size: 1.5rem;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -91,7 +85,6 @@ body {
 
 .notice {
     color: #FFFFFF;
-    font-size: 1.125rem;
     font-weight: 300;
     display: flex;
     justify-content: center;
@@ -118,12 +111,11 @@ body {
     background-color: #484B50;
 }
 .addresses {
-    font-size: 1.625rem;
+    font-size: 20px;
 }
 
 .address-bold {
     font-weight: 700;
-    font-size: 1.625rem;
     color: #FFFFFF;
     flex: 1;
     margin-bottom: 16px;
@@ -131,6 +123,7 @@ body {
 
 .details {
     margin-left: 11px;
+    font-weight: 300
 }
 
 .text-divider {
@@ -196,7 +189,6 @@ body {
     flex: 1;
     align-items: center;
     margin-bottom: 18px;
-
 }
 
 .car-type-active {
@@ -222,11 +214,6 @@ body {
     font-size: 1rem;
 }
 
-
-.price {
-
-}
-
 .price .circle-container {
     display: flex;
     align-items: center;
@@ -238,11 +225,11 @@ body {
     border-radius: 50%;
     background-color: #484B50;
 }
+
 .price .circle-container .circle-text {
     font-weight: 900;
     color: #FFFFFF;
     margin-left: 20px;
-
 }
 
 .price .business-class-desc {
@@ -254,9 +241,7 @@ body {
     margin-bottom: 35px;
 }
 
-
 .price .price-number {
-    font-size: 55px;
     font-weight: 900;
     color: #FFFFFF;
 }
@@ -297,6 +282,7 @@ body {
     background-color: #FFFFFF20;
     border-radius: 10px;
     height: 100%;
+    width: 586px;
 }
 
 .footer-widgets {
@@ -315,9 +301,8 @@ body {
 
 .grey-text {
     color: #FFFFFF50;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 300;
-
 }
 
 .from {
@@ -354,9 +339,6 @@ body {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-
-
-
 }
 
 .email-block .btn-subscribe {
@@ -387,10 +369,24 @@ body {
     margin-left: 20px;
 }
 
-.clock {
+.display-flex {
     display: flex;
 }
 
 .pricing-image-text {
     margin: 18px auto;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
 }
+
+.logo-desc {
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
+
+.text-font {
+    font-size: 14px;
+    font-weight: 300;
+}
+
